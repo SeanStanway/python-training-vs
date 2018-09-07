@@ -72,3 +72,34 @@ print('Dictionary, For Loop for all Keys:')
 for key in newDictionary.keys():
     print(key)
 print('-----For Loop END')
+
+func.newLine()
+
+newSet = {'Charlie','Jon','Tony'}
+func.print_function('Set, Sorted List-No Repeats:', newSet)
+int_setList = set(int_list)
+func.print_function('Set, from old list:', int_setList)
+func.newLine()
+name = 'Charles'
+print('Name to look for in set: {}'.format(name))
+if name in newSet:
+    print(name)
+else:
+    print('not found')
+name = 'Jon'
+print('Name to look for in set: {}'.format(name))
+if name in newSet:
+    print(name)
+else:
+    print('not found')
+
+func.newLine()
+
+from collections import defaultdict
+newDictionary = defaultdict(lambda: 'Key does not exist')
+newDictionary['firstEntry'] = 'value one'
+newDictionary['secondEntry'] = 'value two'
+newDictionary['thirdEntry'] = 'value three'
+newDictionary['fourthEntry'] = 'value four'
+func.print_function('Default Dict, adds default for dictionary (no key present):', newDictionary['randomValue'])
+func.print_function('Default Dict, using key that is present:', newDictionary['firstEntry'])

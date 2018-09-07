@@ -102,3 +102,11 @@ newDictionary['thirdEntry'] = 'value three'
 newDictionary['fourthEntry'] = 'value four'
 func.print_function('Default Dict, adds default for dictionary (no key present):', newDictionary['randomValue'])
 func.print_function('Default Dict, using key that is present:', newDictionary['firstEntry'])
+
+func.newLine()
+
+a = 'Hello'
+reverse_a = list(reversed('Hello'))
+print('Reversed string')
+func.print_function('Normal string:', a)
+func.print_function('Reversed string to list:', reverse_a)

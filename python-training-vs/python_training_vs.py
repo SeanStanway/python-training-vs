@@ -59,3 +59,19 @@ newTuple = ('127.0.0.1', '443')
 print_function('Tuple (Fixed list):', newTuple)
 singleMemeberTuple = tuple(['Single Member'])
 print_function('Tuple (Single entry):', singleMemeberTuple)
+
+newLine()
+
+newDictionary = {
+    'firstEntry': 'value one',
+    'secondEntry': 'value two',
+    'thirdEntry': 'value three',
+    'fourthEntry': 'value four'
+}
+print_function('Dictionary:', newDictionary)
+print_function('Dictionary, Single Entry:', newDictionary['thirdEntry'])
+print('------For Loop')
+print('Dictionary, For Loop for all Keys:')
+for key in newDictionary.keys():
+    print(key)
+print('-----For Loop END')

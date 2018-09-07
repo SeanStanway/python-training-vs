@@ -18,3 +18,30 @@ else:
     print_function('If Statement:','c is more than b')
 
 newLine()
+
+import math
+newMath = math.sqrt(16)
+print_function('Math Import:', newMath)
+
+newLine()
+
+int_list = [1, 2, 3]
+string_list = ['test', '123']
+nested_list = [['nest', 'two'], [100, 200]]
+print_function('Int List:', int_list)
+print_function('Int List, Single Value:', int_list[1])
+newLine()
+print_function('String List:', string_list)
+print_function('String List, Negative Counting ([-2]):',string_list[-2])
+newLine()
+print_function('Nested List:', nested_list)
+print_function('Nested List, Single Value:', nested_list[0][1])
+nested_list[0][1] = 'New Stuff'
+print_function('Nested List, Mutated Value', nested_list)
+int_list.insert(3, 4)
+newLine()
+print_function('Int List, Insert:', int_list)
+int_list.remove(2)
+print_function('Int List, Remove', int_list)
+print_function('Int List, Len(gth):', len(int_list))
+print_function('String List, Index Location:', string_list.index('123'))

@@ -24,6 +24,12 @@
     <Compile Include="customFunctions.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Textbased Game\base.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Textbased Game\player_class.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Training\file_usage.py">
       <SubType>Code</SubType>
     </Compile>
@@ -36,6 +42,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Textbased Game\" />
     <Folder Include="Training\" />
   </ItemGroup>
   <ItemGroup>

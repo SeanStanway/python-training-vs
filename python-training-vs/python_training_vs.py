@@ -45,3 +45,17 @@ int_list.remove(2)
 print_function('Int List, Remove', int_list)
 print_function('Int List, Len(gth):', len(int_list))
 print_function('String List, Index Location:', string_list.index('123'))
+
+newLine()
+
+print('-----For Loop')
+for element in int_list:
+    print (element)
+print('-----For Loop END')
+
+newLine()
+
+newTuple = ('127.0.0.1', '443')
+print_function('Tuple (Fixed list):', newTuple)
+singleMemeberTuple = tuple(['Single Member'])
+print_function('Tuple (Single entry):', singleMemeberTuple)

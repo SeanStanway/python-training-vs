@@ -1,5 +1,4 @@
 import customFunctions as func
-
 def my_function():
     a = 2
     return a

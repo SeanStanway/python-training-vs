@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7dd9cb2a-1005-4884-bada-31d205182b0b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>python_training_vs.py</StartupFile>
+    <StartupFile>Training\object_name_assignment.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,13 @@
     <Compile Include="customFunctions.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="python_training_vs.py" />
+    <Compile Include="Training\python_basics.py" />
+    <Compile Include="Training\object_name_assignment.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Training\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

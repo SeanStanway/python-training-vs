@@ -1,7 +1,7 @@
 class Enemy(object):
     """Enemy class"""
 
-    def __init__(self, name, health, attack, experienceGiven):
+    def __init__(name, health, attack, experienceGiven):
         self._name = name
         self._maxHealth = health
         self._currentHealth = self._maxHealth

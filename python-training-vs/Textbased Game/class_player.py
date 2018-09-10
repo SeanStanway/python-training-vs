@@ -10,9 +10,21 @@ class Player(object):
         self._level = level
         self._exp = exp
 
+    def printStatus(self):
+        print("Name: {}".format(self._name))
+        print("Max HP: {}".format(self._maxHealth))
+        print("Current HP: {}".format(self._currentHealth))
+        print("Attack: {}".format(self._attack))
+        print("Money: {}".format(self._money))
+        print("Level: {}".format(self._level))
+        print("Experience: {}".format(self._exp))
+
     @property
     def name(self):
         return self._name
+
+    def set_name(self, name):
+        self._name = name
 
     @property
     def maxHealth(self):

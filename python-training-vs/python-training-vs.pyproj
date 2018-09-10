@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7dd9cb2a-1005-4884-bada-31d205182b0b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Training\file_usage.py</StartupFile>
+    <StartupFile>Textbased Game\base.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,10 +27,13 @@
     <Compile Include="Textbased Game\base.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Textbased Game\Classes\enemy_class.py">
+    <Compile Include="Textbased Game\class_enemy.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Textbased Game\Classes\player_class.py">
+    <Compile Include="Textbased Game\class_player.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Textbased Game\scene_1_intro.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Training\file_usage.py">
@@ -47,6 +50,7 @@
   <ItemGroup>
     <Folder Include="Textbased Game\" />
     <Folder Include="Textbased Game\Classes\" />
+    <Folder Include="Textbased Game\Scenes\" />
     <Folder Include="Training\" />
   </ItemGroup>
   <ItemGroup>

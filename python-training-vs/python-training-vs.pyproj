@@ -39,6 +39,9 @@
     <Compile Include="Training\file_usage.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Training\graphics.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Training\input.py">
       <SubType>Code</SubType>
     </Compile>
@@ -49,8 +52,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Textbased Game\" />
-    <Folder Include="Textbased Game\Classes\" />
-    <Folder Include="Textbased Game\Scenes\" />
     <Folder Include="Training\" />
   </ItemGroup>
   <ItemGroup>
